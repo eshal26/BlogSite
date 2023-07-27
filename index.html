@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-4">
+    <div class="container-fluid">
+      <a class="navbar-brand " id="t" href="#">TastyBits</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              RECIPEES
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Chinese Recipees</a></li>
+              <li><a class="dropdown-item" href="#">Indian Recipees</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Pakistani food</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn " type="submit">Search</button>
+        </form>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn1">
+          Subscribe
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe to our Newsletter</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <p>Monthly digest of what's new and exciting from us.</p>
+                  <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn" type="button" id="btn2">Subscribe</button>
+                  </div>
+                </form>
+                <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="4.jpg" alt="..">
+          <div class="carousel-caption ">
+            <h5>SIMPLE RECIPEES MADE FOR EVERYDAY LIFE.</h5>
+          </div>
+        </div>
+        <div class="carousel-item d-md-block">
+          <img src="2.jpg" alt="...">
+          <div class="carousel-caption  d-md-block">
+            <h5>SIMPLE RECIPEES MADE FOR EVERYDAY LIFE.</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="3.jpg" alt="...">
+          <div class="carousel-caption  d-md-block ">
+            <h5>SIMPLE RECIPEES MADE FOR EVERYDAY LIFE.</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <h3 class="heading">POPULAR RECIPEES</h3>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="card" style="width: 22rem;">
+          <img src="Tofu-Lettuce-Wraps-420x600.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chick Pea</h5>
+            <p class="card-text">Some quick example text for Card 1.</p>
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card" style="width: 22rem;">
+          <img src="Korean-Beef-Tacos-420x600.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Filled Dumplings</h5>
+            <p class="card-text">Some quick example text for Card 2.</p>
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card" style="width: 22rem;">
+          <img src="Garlic-Herb-Spaghetti-and-Meatballs-in-Cast-Iron-420x600.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sphagette</h5>
+            <p class="card-text">Some quick example text for Card 3.</p>
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card" style="width: 22rem;">
+          <img src="Korean-Beef-Tacos-420x600.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Rolls</h5>
+            <p class="card-text">Some quick example text for Card 4.</p>
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container-fluid">
+      <h3 class="heading">SEARCH RECIPEES OF YOUR CHOICE</h3>
+    </div>
+    <div class="container-fluid">
+      <div class="input-group" id="searchbar">
+        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+          aria-describedby="search-addon" />
+        <button type="button" class="btn ">search</button>
+      </div>
+    </div>
+     <div class="container-fluid">
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Hey!</strong> Subscribe to our Newsletter.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <h3 class="heading">YOUR FAVOURITE RECIPEES ARE HERE!</h3>
+    <div class="container">
+      <img src="Bread-and-Tomato-Soup-2-183x183.jpg" class="rounded-circle" alt="Cinque Terre" width="130" height="130">
+      <img src="Salmon-with-Basil-Sauce-1-2-183x183.jpg" class="rounded-circle" alt="Cinque Terre" width="130"
+        height="130">
+      <img src="Meal-Prep-Pasta-with-Cauliflower-183x183.jpg" class="rounded-circle" alt="Cinque Terre" width="130"
+        height="130">
+      <img src="Roasted-Veggie-Bowl-with-Egg-1-183x183.jpg" class="rounded-circle" alt="Cinque Terre" width="130"
+        height="130">
+      <img src="Curry-Chicken-Salad-5-183x183.webp" class="rounded-circle" alt="Cinque Terre" width="130" height="130">
+      <img src="Instant-Pot-Chicken-and-Dumplings-1-2-183x183.jpg" class="rounded-circle" alt="Cinque Terre" width="130"
+        height="130">
+      <img src="Socca-with-Whipped-Feta-3-183x183.webp" class="rounded-circle" alt="Cinque Terre" width="130"
+        height="130">
+      <img src="Garlic-Herb-Spaghetti-and-Meatballs-in-Cast-Iron-420x600.jpg" class="rounded-circle" alt="Cinque Terre"
+        width="130" height="130">
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary-emphasis">Indian</strong>
+            <h3 class="mb-0">Spicy Biryani Recipee</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, reprehenderit commodi? Quae vitae ullam blanditiis aut quos fuga tempore accusamus quibusdam perferendis necessitatibus, possimus porro culpa obcaecati, sequi sint? Error.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="biryani.jpg" alt="">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis">Chinese</strong>
+            <h3 class="mb-0">Best Pizza Dough</h3>
+            <div class="mb-1 text-body-secondary">Nov 11</div>
+            <p class="mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis reiciendis ipsa, corporis repellendus incidunt aliquid optio et odit. Sint culpa recusandae nisi voluptate, nihil pariatur laboriosam? Cumque nisi porro saepe.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="pizza.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary-emphasis">Italian</strong>
+            <h3 class="mb-0">Sandwich for Breakfast</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, mollitia omnis! Nobis tempora ea magni est soluta tempore molestiae maxime at laudantium? Molestias nihil officia libero temporibus. Commodi, soluta vel.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi">
+                <use xlink:href="#chevron-right" />
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="sandwich.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis">American</strong>
+            <h3 class="mb-0">Roasted Chicken</h3>
+            <div class="mb-1 text-body-secondary">Nov 11</div>
+            <p class="mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dolore est numquam consectetur dolores ratione pariatur debitis sapiente labore iure velit quae id sed magnam aliquid laboriosam eaque voluptatibus incidunt?
+            </p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="chicken.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="footer1">
+    <footer class="py-5">
+      <div class="col-md-5 offset-md-1 mb-3" id="newsletter">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn" type="button" id="btn2">Subscribe</button>
+          </div>
+        </form>
+      </div>
+      <div class="mt-5">
+        <p>© 2023 TastyBites. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

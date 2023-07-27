@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Indie+Flower&family=Playfair+Display:wght@500&family=Varela+Round&display=swap');
+
+body{
+    background-color: #F8F8FF;
+    font-family: 'Varela Round', sans-serif;;
+}
+.navbar{
+    border: 1px solid #D3D3D3;    ;
+}
+.container-fluid{
+    /* font-family: 'Varela Round', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    
+}
+.nav-item{
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.navbar-brand{
+    padding-right: 50px;
+    padding-left: 20px;
+}
+.alert{
+    text-align: center;
+}
+.container{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+.heading{
+    text-align: center;
+    /* font-family: 'Playfair Display', serif; */
+    /* background-color:  rgba(114, 63, 95, 1); */
+    color: black;
+    font-weight: bold;
+    padding: 30px;
+   
+}
+.card-body h5{
+    font-weight: bold;
+}
+.card-body button{
+    color: rgba(114, 63, 95, 1);
+    background-color: white;
+    border: 2px solid rgba(114, 63, 95, 1);
+}
+.card-body button:hover{
+    background-color: rgba(114, 63, 95, 1);
+    color: white;
+}
+.d-flex button{
+    background-color: rgba(114, 63, 95, 1);
+    color: white;
+}
+.d-flex button:hover{
+    color: rgba(114, 63, 95, 1);
+    background-color: white;
+    border: 2px solid rgba(114, 63, 95, 1);
+}
+.container-fluid a{
+    color:  rgba(114, 63, 95, 1);
+    font-weight: bold;
+}
+#t{
+    font-size: 40px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.container-fluid footer{
+    background-color: rgba(114, 63, 95, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+#newsletter{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+#newsletter form div button{
+    color: white;
+    background-color:  rgba(114, 63, 95, 1);
+    border: 2px solid white;
+
+}
+#newsletter form div button:hover{
+    background-color: white;
+    color: rgba(114, 63, 95, 1);
+}
+#searchbar{
+    padding-bottom: 15px;
+   
+}
+#searchbar button{
+    color: white;
+    background-color:  rgba(114, 63, 95, 1);
+    
+}
+#searchbar button:hover{
+    color: rgba(114, 63, 95, 1);
+    background-color: white;
+    border: 2px solid rgba(114, 63, 95, 1);
+}
+#btn1{
+    color: rgba(114, 63, 95, 1);
+    background-color: white;
+    border: 2px solid rgba(114, 63, 95, 1);
+    margin-left: 5px;
+}
+.modal-header{
+    background-color:  rgba(114, 63, 95, 1);
+    color: white;
+}
+.modal-body{
+    background-color:  rgba(114, 63, 95, 1);
+    color: white;
+}
+.modal-footer{
+    background-color:  rgba(114, 63, 95, 1);
+    color: white;
+}
+.modal-body button{
+    margin-top: 15px;
+    color: white;
+    background-color:  rgba(114, 63, 95, 1);
+    border: 2px solid white;
+}
+
